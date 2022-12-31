@@ -64,7 +64,7 @@ def main():
 
     # ---------------------------------------------------import mudule example
     # print(f'variables module name is: {__name__}')
-    """in case that we define name == main we can control modules importing"""
+    """in case that we define name == main we can control modules importing --> if we run this module in main or any other file it will not be executed cuz there name is not equal with main"""
 if __name__ == '__main__':
     print(f'this is the message if name == main')
     main()
