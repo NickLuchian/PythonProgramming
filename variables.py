@@ -1,4 +1,3 @@
-# import main
 def main():
     # ---------------------------------Variables name are key sensitive
     # String
