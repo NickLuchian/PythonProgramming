@@ -1,3 +1,4 @@
+# import main
 def main():
     # ---------------------------------Variables name are key sensitive
     # String
@@ -6,6 +7,7 @@ def main():
     age = 30
     # List
     listOfThings = ['ball', 'car', 'plane']
+    
 
     # ------------------------------Get the python keywords
     # import keyword
@@ -14,7 +16,7 @@ def main():
     # for i in kw_List:
     #     print(i)
 
-    # T--------------------------------------ypes
+    # --------------------------------------Types
     # int, float, double
 
     # -------------------------------------------finding of min/max values
@@ -27,7 +29,7 @@ def main():
     my_string = my_string.lower()
     my_string = my_string.split(" ")
     my_string = "-".join(my_string)
-    # print(my_string)
+    print(my_string)
 
     """this is how to use f-strings"""
     # print(f"Person name is: {name} and age {age}")
@@ -66,7 +68,7 @@ def main():
     # print(f'variables module name is: {__name__}')
     """in case that we define name == main we can control modules importing --> if we run this module in main or any other file it will not be executed cuz there name is not equal with main"""
 if __name__ == '__main__':
-    print(f'this is the message if name == main')
+    print(f'this is the message if name == main: ', __name__)
     main()
 else:
     print(f'sorry dude, name is not main')
