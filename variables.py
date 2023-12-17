@@ -34,11 +34,11 @@ def main():
     # print(f"Person name is: {name} and age {age}")
 
     """this is how to iterate using [indexes]"""
-    # print(len(my_string))
-    #
-    # print(my_string[-1])
-    # #is the same as
-    # print(my_string[len(my_string)-1])
+    print(len(my_string))
+    
+    print(my_string[-7])
+    #is the same as
+    print(my_string[len(my_string)-1])
 
     # print(my_string[0:6])
     test_number = '1234567894844343543843543843548435'
